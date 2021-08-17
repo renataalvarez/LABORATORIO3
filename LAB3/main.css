@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: crimson;
+}
+.root {
+    --letra1: 'Style Script', cursiva;
+    --letra2: : 'Merienda', cursiva;
+
+}
+.title{
+    font-family:(var(--letra1))
+}
+h1{
+    text-align: center;
+}
+.img{
+    height: auto;
+    width: auto;
+}
+.img:hover{
+    transform:none;
+}
+
+/* ------------------------- main */
+.main {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.main__title {
+    color:ghostwhite;
+    font-size: 50px;
+    font-family: var(--letra2);
+    margin-top: 170px;
+    padding-left: 23px;
+}
+
+.main__container hr {
+    width: 300px;
+}
+
+button{
+    font-family:(var(--letra2));
+}
+.main__button1 {
+    background-color:ghostwhite;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 70px;
+    border: 0px;
+    border-radius: 50px;
+    height: 55px;
+    cursor: pointer;
+    outline: none;
+}
+
+.main__button1 a {
+    text-decoration: none;
+    color:black;
+    font-size: 25 px;
+    font-family: var(--letra2);
+}
+
+.main__button1:hover{
+    background-color: var(--blanco);
+    width: 350px;
+    margin-left: 50px;
+    transition: 500ms;
+}
+.main__button2 a:hover{
+    color:black;
+}
+.main__button2 {
+    background-color:ghostwhite;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 70px;
+    border: 0px;
+    border-radius: 50px;
+    height: 55px;
+    cursor: pointer;
+    outline:none;
+}
+
+.main__button2 a {
+    text-decoration: none;
+    color:black;
+    font-size: 25 px;
+    font-family: var(--letra2);
+}
+
+.main__button2:hover{
+    background-color: var(--blanco);
+    width: 350px;
+    margin-left: 50px;
+    transition: 500ms;
+}
+.main__button2 a:hover{
+    color:black;
+}
+
+.main__button3 {
+    background-color:ghostwhite;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 70px;
+    border: 0px;
+    border-radius: 50px;
+    height: 55px;
+    cursor: pointer;
+    outline: none;
+}
+
+.main__button3 a {
+    text-decoration: none;
+    color:black;
+    font-size: 25 px;
+    font-family: var(--letra2);
+}
+
+.main__button3:hover{
+    background-color: var(--blanco);
+    width: 350px;
+    margin-left: 50px;
+    transition: 500ms;
+}
+.main__button3 a:hover{
+    color:black;
+}
+
